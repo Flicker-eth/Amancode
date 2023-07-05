@@ -1,0 +1,48 @@
+/* Custom CSS for Product List */
+.product-list-container {
+    margin: 20px;
+  }
+  
+  .product-list-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .product-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .product-list-table th,
+  .product-list-table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .product-list-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .product-list-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .product-list-table tbody tr:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .product-list-table .actions {
+    white-space: nowrap;
+  }
+  
+  .product-list-table .actions button {
+    margin-right: 5px;
+  }
+  
+  /* Bootstrap overrides */
+  .product-list-table .btn {
+    padding: 4px 10px;
+    font-size: 14px;
+  }
+  
